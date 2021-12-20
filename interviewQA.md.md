@@ -17,6 +17,12 @@ HTML:
 
 CSS:
     Q:什么是BFC?
+    A:
+
+计算机网络:
+    Q:http和https的区别
+    A：http是明文传输数据的，https是http+ssl（secure sockets layer）两种协议，对数据进行了加密，也就是应用层是http，安全层是ssl，传输层，网络层，数据链路层，端口号是443，http是80。https会比http慢一点，因为握手会比较费时。
+
 
 JS:
     Q:原型
