@@ -65,4 +65,6 @@ Vue.js
     Q：nextTick
     A：当要用到最新的html数据的时候，就用nextTick，原理是vue内部模仿了一个事件循环，异步更新组件，把相同的Watcher只添加进一个进队列，然后下次个事件循环开始的时候清空并执行这个队列里的方法，
 
-    Q：
+    Q:路由history和hash有什么区别
+    A:history是操作win.history对象操作go，back方法，hash操作hashchange，history可能会丢失页面，当页面刷新的时候相当于走服务器路由，可能会出现404的情况，解决办法是服务器那边解决。
+
